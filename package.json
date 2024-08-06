@@ -1,30 +1,30 @@
 {
-  "name": "meteor-sfc-2",
-  "version": "1.0.10",
-  "description": "Meteor Single File Components",
-  "main": "meteor-sfc.js",
+  "name": "blaze-sfc",
+  "version": "1.0.11",
+  "description": "Blaze Single File Components",
+  "main": "blaze-sfc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pingpong-im/meteor-sfc.git"
+    "url": "git+https://github.com/maxcoloring/blaze-sfc.git"
   },
   "keywords": [
     "meteor"
   ],
-  "author": "Ruslan Inozemtsev",
+  "author": "Max Coloring",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pingpong-im/meteor-sfc/issues"
+    "url": "https://github.com/maxcoloring/blaze-sfc/issues"
   },
-  "homepage": "https://github.com/pingpong-im/meteor-sfc#readme",
+  "homepage": "https://github.com/maxcoloring/blaze-sfc#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
     "watchr": "^3.0.1",
     "xmldom": "^0.1.27"
   },
   "bin": {
-    "meteor-sfc": "./meteor-sfc.js"
+    "blaze-sfc": "./blaze-sfc.js"
   }
 }

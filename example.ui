@@ -1,20 +1,21 @@
-<template name="hacker">
-  <div class="hacker">
-    <h1 class="hacker_name">{{name}}</h1>
-  </div>
+<template name="example">
+    <section class="example">
+        <h1 class="example_name" {{Atr}}>{{name}}</h1>
+    </section>
 </template>
-
 <script>
-  Template.hacker.helpers({
-    name () {
-      return 'Neo'
+Template.hacker.helpers({
+    name() {
+        return 'Neo'
+    },
+    Atr() {
+        return 'Atr'
     }
-  })
+})
 </script>
-
-<style lang="less">
-  .hacker_name {
+<style>
+.example_name {
     color: yellow;
     background-color: #333;
-  }
+}
 </style>
